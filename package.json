@@ -1,0 +1,17 @@
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "Minimal TailwindCSS loyiha",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"No tests yet\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "postcss": "^8.4.30",
+    "autoprefixer": "^10.4.14"
+  },
+  "author": "",
+  "license": "ISC"
+}
